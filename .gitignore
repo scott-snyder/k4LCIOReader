@@ -38,3 +38,5 @@ install
 *.exe
 *.out
 *.app
+
+*~
