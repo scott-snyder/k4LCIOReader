@@ -402,7 +402,7 @@ podio::CollectionBase *k4LCIOConverter::cnvTrackCollection(EVENT::LCCollection *
         // add Sub-detector numbers
         for (auto v : rval->getSubdetectorHitNumbers())
         {
-            lval.addToSubDetectorHitNumbers(v);
+            lval.addToSubdetectorHitNumbers(v);
         }
 
         // fill the TrackStates
